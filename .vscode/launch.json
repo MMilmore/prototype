@@ -1,0 +1,28 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Run Java",
+      "request": "launch",
+      "mainClass": "com.qrprototype.ui.MainUI",
+      "vmArgs": "--module-path /Applications/javafx-sdk-22.0.2/lib --add-modules javafx.controls,javafx.fxml -Djava.library.path=/Applications/javafx-sdk-22.0.2/lib -Dprism.forceGPU=false -Dprism.order=sw -Dprism.verbose=true",
+      "console": "integratedTerminal",
+      "preLaunchTask": "Maven Build"
+    },
+    {
+      "type": "java",
+      "name": "PlaceholderOnlyTextField",
+      "request": "launch",
+      "mainClass": "com.qrprototype.ui.PlaceholderOnlyTextField",
+      "vmArgs": "--module-path /Applications/javafx-sdk-22.0.2/lib --add-modules javafx.controls,javafx.fxml -Djava.library.path=/Applications/javafx-sdk-22.0.2/lib -Dprism.forceGPU=true -Dprism.order=sw -Dprism.verbose=true"
+    },
+    {
+      "type": "java",
+      "name": "PaleGreenWindow",
+      "request": "launch",
+      "mainClass": "com.qrprototype.ui.PaleGreenWindow",
+      "vmArgs": "--module-path /Applications/javafx-sdk-22.0.2/lib --add-modules javafx.controls,javafx.fxml -Djava.library.path=/Applications/javafx-sdk-22.0.2/lib -Dprism.forceGPU=true -Dprism.order=sw -Dprism.verbose=true"
+    }
+  ]
+}

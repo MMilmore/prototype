@@ -1,0 +1,43 @@
+/* styles.css */
+
+/* Style par défaut pour les champs de texte */
+/* Ce style s'applique à tous les champs de texte lorsqu'ils ne sont pas activement utilisés ou cliqués */
+.text-field-default {
+    -fx-prompt-text-fill: rgb(130, 130, 130); /* Couleur du texte indicatif (placeholder) en gris */
+    -fx-background-color: transparent; /* Couleur de fond transparente pour le champs de texte */
+    -fx-border-color: transparent; /* Bordure invisible autour du champs de texte */
+    -fx-text-box-border: transparent; /* Bordure interne invisible autour de la zone de saisie */
+    -fx-focus-color: transparent; /* Couleur de surbrillance lors du focus, ici invisible */
+    -fx-faint-focus-color: transparent; /* Couleur de surbrillance subtile lors du focus, invisible également */
+    -fx-highlight-fill: lightblue; /* Couleur de surbrillance (fond) lorsque du texte est sélectionné */
+    -fx-highlight-text-fill: black; /* Couleur du texte sélectionné, ici en noir */
+    -fx-text-fill: black; /* Couleur du texte par défaut dans le champs de texte, ici en noir */
+}
+
+/* Style lorsque le champs de texte est cliquée */
+/* Ce style s'applique lorsqu'un champs de texte reçoit un clic (focus) */
+.text-field-clicked {
+    -fx-prompt-text-fill: rgb(130, 130, 130); /* Couleur du texte indicatif (placeholder) reste en gris lors du clic */
+    -fx-background-color: transparent; /* Fond du champs de texte reste transparent */
+    -fx-border-color: transparent; /* Bordure invisible, même lors du clic */
+}
+
+/* Style lors de la saisie dans le champs de texte */
+/* Ce style s'applique lors de la saisie active de texte dans le champs */
+.text-field-typing {
+    -fx-prompt-text-fill: transparent; /* Le placeholder devient invisible pendant la saisie */
+    -fx-background-color: transparent; /* Fond du champs de texte reste transparent pendant la saisie */
+    -fx-border-color: transparent; /* Bordure invisible pendant la saisie */
+}
+
+/* Style pour l'arrière-plan de la fenêtre principale "AnchorPane" */
+/* Applique un style de fond spécifique à l'AnchorPane, qui est souvent utilisé comme conteneur */
+.anchor-pane-background {
+    -fx-background-color: #66ddaa; /* Couleur de fond en medium aquamarine, une nuance de vert */
+}
+
+/* Style pour les labels */
+/* Applique un style spécifique aux labels pour le texte affiché après validation */
+.label-style {
+    -fx-text-fill: rgb(255, 255, 255); /* Couleur du texte en blanc pour les labels */
+}

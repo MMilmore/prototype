@@ -1,0 +1,14 @@
+{
+    "maven.executable.path": "/opt/homebrew/bin/mvn",
+    "java.configuration.updateBuildConfiguration": "interactive",
+    "workbench.colorTheme": "Default High Contrast",
+    "redhat.telemetry.enabled": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "editor.accessibilitySupport": "off",
+    "css.validate": false,
+    "less.validate": false,
+    "scss.validate": false,
+    "java.jdt.ls.vmargs": "--module-path /Applications/javafx-sdk-22.0.2/lib --add-modules javafx.controls,javafx.fxml -Djava.library.path=/Applications/javafx-sdk-22.0.2/lib",
+    "java.debug.settings.vmArgs": "--module-path /Applications/javafx-sdk-22.0.2/lib --add-modules javafx.controls,javafx.fxml -Djava.library.path=/Applications/javafx-sdk-22.0.2/lib -Dprism.forceGPU=true -Dprism.order=sw -Dprism.verbose=true"
+}
